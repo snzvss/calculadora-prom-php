@@ -1,0 +1,133 @@
+.root{
+    --background-color: #FFFFFF;
+    --background-color-bg: #2d2d2d;
+    --color-text: #000000;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    }
+    
+    .form {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        .form label {
+        margin-bottom: 10px;
+        font-weight: bold;
+        }
+        
+        .form input[type="text"],
+        .form input[type="number"],
+        .form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0,0,0,.1);
+        font-size: 16px;
+        }
+        
+        .form input[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        }
+        
+        .form input[type="submit"]:hover {
+        background-color: #3e8e41;
+        }
+                
+    .titulo {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    }
+      
+      .notas {
+        margin: 20px auto; 
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        background-color: #fff; 
+        border-radius: 10px; 
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+      }
+      
+      .notas h2 {
+        font-size: 28px; 
+        margin-top: 0; 
+      }
+      
+      .notas p {
+        font-size: 20px; 
+        margin-bottom: 10px; 
+      }
+      
+      .estudiante {
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+
+      .estudiante h3 {
+        margin-bottom: 15px;
+      }
+      
+      .estudiante .nota {
+        margin-top: 5px;
+      }
+
+      .nombre {
+        margin-right: 10px; 
+      }
+
+      .nota {
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+      .nota span {
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 0.5em;
+      }
+      
+      .nota_aprobado{
+        font-weight: bold;
+        color: #3e8e41;
+      }
+      
+      .nota_rechazado{
+        font-weight: bold;
+        color: #e53935; 
+      }
+      
+      
